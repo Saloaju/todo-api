@@ -1,4 +1,11 @@
 titulo,descripcion,completada
-Comprar víveres,Actividad de prueba,false
-Preparar reporte,Caso generado para JMeter,false
-Revisar pendientes,Prueba automatizada,true
+Comprar víveres para la semana,Supermercado y farmacia local,false
+Preparar informe de rendimiento,Analizar métricas de JMeter y Node.js,false
+Revisar pendientes del sprint,Reunión de seguimiento con el equipo,true
+Configurar entorno de integración,Instalar dependencias y paquetes npm,true
+Diseñar casos de prueba funcionales,Documentar flujos F01 a F07 en JMeter,false
+Optimizar consultas de base de datos,Revisar índices y conexiones de Express,false
+Actualizar documentación del proyecto,Subir cambios al repositorio de GitHub,true
+Ejecutar pruebas de carga media,Escenario con 20 usuarios concurrentes,true
+Verificar manejo de errores HTTP,Validar respuestas 400 Bad Request y 404,false
+Completar entrega académica final,Subir informe técnico en PDF y proyecto ZIP,false
