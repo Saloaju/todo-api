@@ -68,6 +68,19 @@ app.delete('/tasks/:id', (req, res) => {
     res.json(deletedTask[0]);
 });
 
+
+// Obtener una tarea por ID
+app.get('/tasks/:id', (req, res) => {
+    const taskId = parseInt(req.params.id);
+    const task = tasks.find(t => t.id === taskId);
+    
+    if (!task) {
+        return res.status(404).json({ error: 'Tarea no encontrada' });
+    }
+    
+    res.json(task);
+});
+
 // Iniciar el servidor
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
